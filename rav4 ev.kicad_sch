@@ -1,0 +1,3899 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "31f9b3cd-5cac-468b-b36d-3bf8b59d460e")
+	(paper "A0")
+	(lib_symbols
+		(symbol "Device:Fuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 29.21 342.9) (xy 29.21 344.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e7da994-95f3-4df8-9155-1266b8a1b2c6")
+	)
+	(wire
+		(pts
+			(xy 29.21 351.79) (xy 29.21 353.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e306db82-d977-4b0f-9ae0-ddc482b963d6")
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 29.21 347.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e453b77a-9268-4b9b-a583-76032cef8e69")
+		(property "Reference" "F1"
+			(at 31.75 346.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "250 AMP"
+			(at 31.75 349.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.432 347.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 29.21 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "730f0115-21ab-4231-a112-101ae0c0390c")
+		)
+		(pin "2"
+			(uuid "0e08a84f-dcea-4670-aa49-d6752186d937")
+		)
+		(instances
+			(project "rav4 ev"
+				(path "/31f9b3cd-5cac-468b-b36d-3bf8b59d460e"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 586.74)
+		(size 15.24 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "02c0d440-6d5a-48d4-a897-51d568d36f8a")
+		(property "Sheetname" "battery19"
+			(at 35.56 586.232 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery.kicad_sch"
+			(at 24.892 609.6 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "batout +" input
+			(at 30.48 612.14 270)
+			(uuid "6400d026-3514-41ad-8751-a8c99c74a606")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "batout -" input
+			(at 30.48 586.74 90)
+			(uuid "68e5bc6c-9434-4749-8c12-a80c084ef572")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 41.91 588.01 0)
+			(uuid "f4ffe0b6-b1ff-43be-a0b9-e6779b6476b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1+" input
+			(at 41.91 603.25 0)
+			(uuid "fa0e197a-4783-4711-ac83-99437b16d7fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1-" input
+			(at 41.91 605.79 0)
+			(uuid "6f0272bc-5510-43c5-8910-095e7d7d03d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2+" input
+			(at 41.91 608.33 0)
+			(uuid "f6cb4392-1a9a-4526-9d33-732cf532fda0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2-" input
+			(at 41.91 610.87 0)
+			(uuid "ff0b2adc-80bf-48f2-9ad0-5bdf25e6c2f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V0" input
+			(at 41.91 590.55 0)
+			(uuid "54d5f8df-50ca-467d-b040-d0760117b3d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V1" input
+			(at 41.91 593.09 0)
+			(uuid "c83725f3-31bd-44a3-9ab9-46514b9c8db3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V2" input
+			(at 41.91 595.63 0)
+			(uuid "f6de4a4d-bbff-4600-a6e6-faff0e5d488f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V3" input
+			(at 41.91 598.17 0)
+			(uuid "03b27fd4-817f-4143-8858-49e471335fb2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V4" input
+			(at 41.91 600.71 0)
+			(uuid "37ecdc7d-7ac8-4f1c-bf5b-e953bdf4e184")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "rav4 ev"
+				(path "/31f9b3cd-5cac-468b-b36d-3bf8b59d460e"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 229.87)
+		(size 15.24 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "08d1dc56-8e82-445a-a5c5-6e907b4ca9e5")
+		(property "Sheetname" "battery7"
+			(at 34.29 229.362 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery.kicad_sch"
+			(at 23.622 252.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "batout +" input
+			(at 29.21 255.27 270)
+			(uuid "47944ea3-e921-4933-b5b9-1db47cf359da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "batout -" input
+			(at 29.21 229.87 90)
+			(uuid "a3445d2e-0a48-46ee-95d7-fb3b6208a5da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 40.64 231.14 0)
+			(uuid "938c09a3-3f1b-466c-9313-31755a062d32")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1+" input
+			(at 40.64 246.38 0)
+			(uuid "2307fb15-6c05-40ad-a9e5-069d56a1c032")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1-" input
+			(at 40.64 248.92 0)
+			(uuid "60d43488-e0f7-4f33-bce4-1572a9a91913")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2+" input
+			(at 40.64 251.46 0)
+			(uuid "c69618a9-0648-430b-a03e-2dafc857533d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2-" input
+			(at 40.64 254 0)
+			(uuid "4c98ea04-527f-4c64-9ef4-5dfb09d02ef2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V0" input
+			(at 40.64 233.68 0)
+			(uuid "c7c28d37-4cfd-4664-b241-f713a074aafb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V1" input
+			(at 40.64 236.22 0)
+			(uuid "e6d91ae8-610a-4605-baf1-e165f5d4a7a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V2" input
+			(at 40.64 238.76 0)
+			(uuid "f9222e35-5890-48d4-a830-de101685475d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V3" input
+			(at 40.64 241.3 0)
+			(uuid "2815bfa6-6d12-4605-98a7-7caf5798dd9c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V4" input
+			(at 40.64 243.84 0)
+			(uuid "0a2578c3-5c90-426c-a303-47bf9e61a1d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "rav4 ev"
+				(path "/31f9b3cd-5cac-468b-b36d-3bf8b59d460e"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 528.32)
+		(size 15.24 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "091ca550-0f53-4040-bcc0-6eea2044128e")
+		(property "Sheetname" "battery17"
+			(at 35.56 527.812 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery.kicad_sch"
+			(at 24.892 551.18 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "batout +" input
+			(at 30.48 553.72 270)
+			(uuid "0a3d3e65-b166-4c16-a400-1a090fdc2b55")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "batout -" input
+			(at 30.48 528.32 90)
+			(uuid "f1e749bf-7557-48b4-af4c-9d52686c9964")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 41.91 529.59 0)
+			(uuid "cbb1aa98-c914-49e5-bfc7-c693ef3ee741")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1+" input
+			(at 41.91 544.83 0)
+			(uuid "f7fc4ce4-5915-4718-b78d-d7de65fd108e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1-" input
+			(at 41.91 547.37 0)
+			(uuid "ad1e4289-595b-4852-8efa-e8104deb60af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2+" input
+			(at 41.91 549.91 0)
+			(uuid "4cf590b2-ddcc-4868-8a56-2aaee29a0246")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2-" input
+			(at 41.91 552.45 0)
+			(uuid "0bdea652-ff42-4be7-9ab1-841f06a2cf8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V0" input
+			(at 41.91 532.13 0)
+			(uuid "175a0d49-7e0a-4839-89b6-32eb3ed7626e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V1" input
+			(at 41.91 534.67 0)
+			(uuid "9600ab44-f9df-4895-86d7-3ffc667583c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V2" input
+			(at 41.91 537.21 0)
+			(uuid "a89dce31-1b56-4f2e-8b6d-402c82ac4906")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V3" input
+			(at 41.91 539.75 0)
+			(uuid "cdfdbb3b-20dd-40e3-a4bc-c99a20b8aa24")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V4" input
+			(at 41.91 542.29 0)
+			(uuid "85c55262-3a49-4aa7-9bfe-5a9e186941da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "rav4 ev"
+				(path "/31f9b3cd-5cac-468b-b36d-3bf8b59d460e"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 288.29)
+		(size 15.24 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1322c3ce-387c-4aeb-b436-fb153b0133bb")
+		(property "Sheetname" "battery9"
+			(at 34.29 287.782 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery.kicad_sch"
+			(at 23.622 311.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "batout +" input
+			(at 29.21 313.69 270)
+			(uuid "e19f9c05-4138-4a42-8c11-23cc999871df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "batout -" input
+			(at 29.21 288.29 90)
+			(uuid "29b85724-361f-4320-98bf-d69bdb4fcea1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 40.64 289.56 0)
+			(uuid "18000351-71c7-464d-8124-4d1685f67f10")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1+" input
+			(at 40.64 304.8 0)
+			(uuid "72bbca04-3fa5-4ba0-baed-7c9da7ef18d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1-" input
+			(at 40.64 307.34 0)
+			(uuid "f59f4b78-ee9a-43ba-92c8-aab68f930161")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2+" input
+			(at 40.64 309.88 0)
+			(uuid "b0712ca7-736a-461b-a690-6f74934c994b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2-" input
+			(at 40.64 312.42 0)
+			(uuid "707537f9-c5c5-44cb-867c-b81a472b35d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V0" input
+			(at 40.64 292.1 0)
+			(uuid "089cc27c-355e-44a7-b6e7-2a9b409a48ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V1" input
+			(at 40.64 294.64 0)
+			(uuid "1898ec16-92d1-4edd-a8f2-7edfa54b2b9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V2" input
+			(at 40.64 297.18 0)
+			(uuid "913b2dfe-9982-4b91-8b04-437245fadf20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V3" input
+			(at 40.64 299.72 0)
+			(uuid "19a9d6f4-6b6a-46cf-9b8c-3a1bc4153a97")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V4" input
+			(at 40.64 302.26 0)
+			(uuid "88378adc-2a1a-4296-b6eb-c84bcff9455b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "rav4 ev"
+				(path "/31f9b3cd-5cac-468b-b36d-3bf8b59d460e"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 200.66)
+		(size 15.24 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "14405fb8-1025-4e3c-b21b-2a019b2f4771")
+		(property "Sheetname" "battery6"
+			(at 34.29 200.152 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery.kicad_sch"
+			(at 23.622 223.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "batout +" input
+			(at 29.21 226.06 270)
+			(uuid "5085b289-90e6-4a09-b382-aebda6795ffa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "batout -" input
+			(at 29.21 200.66 90)
+			(uuid "3df9c55a-42f0-49d9-b7f5-1994dad4d689")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 40.64 201.93 0)
+			(uuid "fe8e061c-9465-4fc3-a980-89010631cc40")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1+" input
+			(at 40.64 217.17 0)
+			(uuid "ad7c8472-83a7-4818-bf85-c6d639380a66")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1-" input
+			(at 40.64 219.71 0)
+			(uuid "5ec350eb-3e59-4f44-99a3-b9b99f347573")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2+" input
+			(at 40.64 222.25 0)
+			(uuid "42ceea50-07d1-4062-81e2-477b13d76259")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2-" input
+			(at 40.64 224.79 0)
+			(uuid "6da1464d-4503-4fc0-b428-7e6612d6052f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V0" input
+			(at 40.64 204.47 0)
+			(uuid "e38c90af-4b39-42e5-a0d0-e8a5e12e5094")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V1" input
+			(at 40.64 207.01 0)
+			(uuid "ae0e1c5c-1804-447c-ab53-767271a5ec44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V2" input
+			(at 40.64 209.55 0)
+			(uuid "1eaa9f0d-409e-4937-8a7a-8359d46d71a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V3" input
+			(at 40.64 212.09 0)
+			(uuid "de3dca49-e11e-4f1c-b588-42b9fa91ae18")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V4" input
+			(at 40.64 214.63 0)
+			(uuid "44adb6e6-0e12-48d4-8f12-027349372bf2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "rav4 ev"
+				(path "/31f9b3cd-5cac-468b-b36d-3bf8b59d460e"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 382.27)
+		(size 15.24 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "16b830d5-a158-446e-abe8-7e5ab06f22b4")
+		(property "Sheetname" "battery12"
+			(at 34.29 381.762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery.kicad_sch"
+			(at 23.622 405.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "batout +" input
+			(at 29.21 407.67 270)
+			(uuid "f789aff8-1ec3-44cc-bc37-018b66bcb644")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "batout -" input
+			(at 29.21 382.27 90)
+			(uuid "85268789-38e0-4325-9b8f-5a6b9e669f96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 40.64 383.54 0)
+			(uuid "3633166f-538b-414c-8282-385c30f948e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1+" input
+			(at 40.64 398.78 0)
+			(uuid "f7105591-105d-49cd-a59c-579cbf22e1af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1-" input
+			(at 40.64 401.32 0)
+			(uuid "4de26064-4182-4f53-aec9-3f4e8280c994")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2+" input
+			(at 40.64 403.86 0)
+			(uuid "5897b1e5-21dc-4353-a4e8-3200602ebb93")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2-" input
+			(at 40.64 406.4 0)
+			(uuid "19f5caa2-d413-4edf-be29-64564c7ef7b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V0" input
+			(at 40.64 386.08 0)
+			(uuid "2ec6e5eb-adb8-4c35-ad08-2b4ba0005ca2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V1" input
+			(at 40.64 388.62 0)
+			(uuid "b9c319e6-15bf-456a-979f-5ff2336ac079")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V2" input
+			(at 40.64 391.16 0)
+			(uuid "ed73b5c6-2926-46ad-a400-95db75f2ec18")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V3" input
+			(at 40.64 393.7 0)
+			(uuid "102d0db4-a55b-4561-b281-89ba6e52faa2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V4" input
+			(at 40.64 396.24 0)
+			(uuid "a76f665e-56b7-4cad-a9a2-9df0efe4aeb2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "rav4 ev"
+				(path "/31f9b3cd-5cac-468b-b36d-3bf8b59d460e"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 142.24)
+		(size 15.24 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2e0e1c4c-1fab-4b9d-a3ae-ea511a0777df")
+		(property "Sheetname" "battery4"
+			(at 34.29 141.732 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery.kicad_sch"
+			(at 23.622 165.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "batout +" input
+			(at 29.21 167.64 270)
+			(uuid "07388aae-bf7f-4eb6-bd3c-2d406af179f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "batout -" input
+			(at 29.21 142.24 90)
+			(uuid "9460330c-98eb-4d2a-89fb-89cdffb8fecd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 40.64 143.51 0)
+			(uuid "1b0db4b3-e07b-428d-a925-8322aec31e58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1+" input
+			(at 40.64 158.75 0)
+			(uuid "42526a78-3526-4c73-b3ee-00479e0f42db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1-" input
+			(at 40.64 161.29 0)
+			(uuid "e44cd406-6a90-401b-85c5-10d8f808cf36")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2+" input
+			(at 40.64 163.83 0)
+			(uuid "df370093-3438-46b9-b04d-5f0e84774a58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2-" input
+			(at 40.64 166.37 0)
+			(uuid "9762ac74-171f-474b-8051-e21879ae7db3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V0" input
+			(at 40.64 146.05 0)
+			(uuid "d55a7c8d-49a0-4565-b68b-a595a5fed561")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V1" input
+			(at 40.64 148.59 0)
+			(uuid "7506707f-2377-447d-95a3-69d47483cba6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V2" input
+			(at 40.64 151.13 0)
+			(uuid "bddc5e65-1e2a-439b-bfbe-f3cbc111e86c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V3" input
+			(at 40.64 153.67 0)
+			(uuid "9febeba9-b4c9-497f-8aff-68d7e607c2aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V4" input
+			(at 40.64 156.21 0)
+			(uuid "2fadef9b-2a64-439f-bf50-bc2e26bee8df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "rav4 ev"
+				(path "/31f9b3cd-5cac-468b-b36d-3bf8b59d460e"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 317.5)
+		(size 15.24 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "30a6336f-aedb-429c-b372-5f06fc8e2682")
+		(property "Sheetname" "battery10"
+			(at 34.29 316.992 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery.kicad_sch"
+			(at 23.622 340.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "batout +" input
+			(at 29.21 342.9 270)
+			(uuid "9c09bef3-8119-490f-aa6c-c058d93a8420")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "batout -" input
+			(at 29.21 317.5 90)
+			(uuid "183b2ddf-9a1e-4705-be69-64eb862648ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 40.64 318.77 0)
+			(uuid "e9c3e7a2-34b5-4372-9a04-526c0bd7c0d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1+" input
+			(at 40.64 334.01 0)
+			(uuid "0d4b41b8-5bdc-45a7-a011-aa4c219d4524")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1-" input
+			(at 40.64 336.55 0)
+			(uuid "49b85a01-4bdf-4fa2-9d0a-194cbc9221ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2+" input
+			(at 40.64 339.09 0)
+			(uuid "b1785534-c421-433b-9a48-287d0bfe66a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2-" input
+			(at 40.64 341.63 0)
+			(uuid "ea237b82-c8b6-43c3-9e39-5fb6059fc848")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V0" input
+			(at 40.64 321.31 0)
+			(uuid "e0f28650-7fc8-4646-9184-66b00a3c8310")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V1" input
+			(at 40.64 323.85 0)
+			(uuid "9fb91880-cd4b-4ec1-ad73-b3cf83dbc265")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V2" input
+			(at 40.64 326.39 0)
+			(uuid "e254529e-4b4f-44be-8b1f-fa9108da3f0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V3" input
+			(at 40.64 328.93 0)
+			(uuid "d8343b1b-1827-4c0c-a465-ebbdf038b9bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V4" input
+			(at 40.64 331.47 0)
+			(uuid "4af14f56-0f05-4747-b161-29ba018d965b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "rav4 ev"
+				(path "/31f9b3cd-5cac-468b-b36d-3bf8b59d460e"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 353.06)
+		(size 15.24 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "35e795ec-857c-4af4-8838-fd52116fbc1e")
+		(property "Sheetname" "battery11"
+			(at 34.29 352.552 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery.kicad_sch"
+			(at 23.622 375.92 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "batout +" input
+			(at 29.21 378.46 270)
+			(uuid "98f6bbbb-ade7-484a-97cf-a54e6e76a993")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "batout -" input
+			(at 29.21 353.06 90)
+			(uuid "8d5e6bc5-fcc6-4eb7-a763-382271d43667")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 40.64 354.33 0)
+			(uuid "93e6519b-d93c-4978-8753-35d307cd1ec1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1+" input
+			(at 40.64 369.57 0)
+			(uuid "fb8d4fd4-a76f-46b9-86a6-8a2688ba9364")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1-" input
+			(at 40.64 372.11 0)
+			(uuid "59326898-808d-4ee4-9717-ed3387055395")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2+" input
+			(at 40.64 374.65 0)
+			(uuid "b1fac126-992c-4555-952b-73af52b2b0d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2-" input
+			(at 40.64 377.19 0)
+			(uuid "74162f39-a003-48e2-ba6c-ade8b81494b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V0" input
+			(at 40.64 356.87 0)
+			(uuid "b5f34846-a9a6-456d-bc6d-15d6d873bfac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V1" input
+			(at 40.64 359.41 0)
+			(uuid "e0aa9158-9de0-4846-8acc-791d8786fc02")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V2" input
+			(at 40.64 361.95 0)
+			(uuid "970fdd2f-e4d1-49b7-8003-58a9ab0f29ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V3" input
+			(at 40.64 364.49 0)
+			(uuid "ea241b88-e3ab-4bf6-b18c-ce23dfb8c325")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V4" input
+			(at 40.64 367.03 0)
+			(uuid "4ff835c3-411b-45e6-bec6-f43232d801c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "rav4 ev"
+				(path "/31f9b3cd-5cac-468b-b36d-3bf8b59d460e"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 259.08)
+		(size 15.24 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4834b646-762a-48cf-b81a-ab0b02347f16")
+		(property "Sheetname" "battery8"
+			(at 34.29 258.572 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery.kicad_sch"
+			(at 23.622 281.94 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "batout +" input
+			(at 29.21 284.48 270)
+			(uuid "dcfa594b-073a-426f-9207-19b1f5d8b4a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "batout -" input
+			(at 29.21 259.08 90)
+			(uuid "e9472044-1a0c-4a32-9208-e4ffc82e79ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 40.64 260.35 0)
+			(uuid "9436f55f-bb70-4e10-9ed7-fbd239d423f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1+" input
+			(at 40.64 275.59 0)
+			(uuid "b2e1085c-350e-42ad-89df-cc5e7321603a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1-" input
+			(at 40.64 278.13 0)
+			(uuid "9ad7b9e7-6efd-4493-90eb-14567f2bbbdd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2+" input
+			(at 40.64 280.67 0)
+			(uuid "d1501bbb-49dc-4f07-b030-1ddaf2f3a479")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2-" input
+			(at 40.64 283.21 0)
+			(uuid "50c37bf4-ff22-4372-a5d1-a05d01d9db53")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V0" input
+			(at 40.64 262.89 0)
+			(uuid "53c4eafd-2637-41fb-9311-0006d6c8c196")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V1" input
+			(at 40.64 265.43 0)
+			(uuid "d50941ef-c533-4ca4-a857-2b9beff8bbef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V2" input
+			(at 40.64 267.97 0)
+			(uuid "1b27c12a-8feb-4c2c-916b-f0dbf5fcfa27")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V3" input
+			(at 40.64 270.51 0)
+			(uuid "e4acb732-e9f7-43f6-9e3b-3ef40b9b1ca1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V4" input
+			(at 40.64 273.05 0)
+			(uuid "04479cf7-d524-40c2-b48b-2dc6c1966cdf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "rav4 ev"
+				(path "/31f9b3cd-5cac-468b-b36d-3bf8b59d460e"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 83.82)
+		(size 15.24 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6b1f9f41-721f-4061-823d-c4442d088e79")
+		(property "Sheetname" "battery2"
+			(at 34.29 83.312 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery.kicad_sch"
+			(at 23.622 106.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "batout +" input
+			(at 29.21 109.22 270)
+			(uuid "48b01156-dc80-4245-8d03-8b3bc73045b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "batout -" input
+			(at 29.21 83.82 90)
+			(uuid "5a74ee5f-ca58-4af7-abcf-f49687414d5e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 40.64 85.09 0)
+			(uuid "02e8460c-9527-46a4-a49c-1ce6f7876bca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1+" input
+			(at 40.64 100.33 0)
+			(uuid "33475c8d-6910-4171-97a3-af5115fd1c1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1-" input
+			(at 40.64 102.87 0)
+			(uuid "c03af375-5e2d-43c5-8dcb-970bdc53a5cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2+" input
+			(at 40.64 105.41 0)
+			(uuid "b08d8f9c-e3ac-4324-b37f-32bcd169b5cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2-" input
+			(at 40.64 107.95 0)
+			(uuid "9e76b9ee-8a0b-4ca9-914c-2f7a339c9425")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V0" input
+			(at 40.64 87.63 0)
+			(uuid "24351f65-7806-425f-aeff-fd89e6c740e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V1" input
+			(at 40.64 90.17 0)
+			(uuid "c863d956-8181-4b06-9c2d-bd26b0b8faa5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V2" input
+			(at 40.64 92.71 0)
+			(uuid "771c259d-c779-4394-91a8-0ca3efa608d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V3" input
+			(at 40.64 95.25 0)
+			(uuid "5ba908da-e071-4b80-98fa-801e9dedcd37")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V4" input
+			(at 40.64 97.79 0)
+			(uuid "f2846943-ba5f-4367-a1e8-c6525247add8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "rav4 ev"
+				(path "/31f9b3cd-5cac-468b-b36d-3bf8b59d460e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 411.48)
+		(size 15.24 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6fcd1c71-1e5d-401e-a06a-ab39dce0a710")
+		(property "Sheetname" "battery13"
+			(at 34.29 410.972 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery.kicad_sch"
+			(at 23.622 434.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "batout +" input
+			(at 29.21 436.88 270)
+			(uuid "b8d9458c-3d01-4b9c-827e-0974ad9e71d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "batout -" input
+			(at 29.21 411.48 90)
+			(uuid "c6cdf024-a83b-47f4-b818-70107b12b6ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 40.64 412.75 0)
+			(uuid "5e2a092d-7f9a-40d2-9165-73cf8787df42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1+" input
+			(at 40.64 427.99 0)
+			(uuid "abe565b5-c8b6-4e15-9c94-d1464681ff17")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1-" input
+			(at 40.64 430.53 0)
+			(uuid "c07f342a-7c47-40fa-90a7-4f5d7b4e1501")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2+" input
+			(at 40.64 433.07 0)
+			(uuid "d613d721-9d10-4776-833c-ee783801955b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2-" input
+			(at 40.64 435.61 0)
+			(uuid "3c506a97-b14c-49da-85e6-bde7d954486c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V0" input
+			(at 40.64 415.29 0)
+			(uuid "ff3787f2-133b-4545-8928-de6f74626399")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V1" input
+			(at 40.64 417.83 0)
+			(uuid "aa59191f-7f1a-4826-9286-b395385adb79")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V2" input
+			(at 40.64 420.37 0)
+			(uuid "b25450bb-321e-4c32-a80f-c2acb10bc08a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V3" input
+			(at 40.64 422.91 0)
+			(uuid "1d715e21-bedf-4dad-ab2e-565bc8963d90")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V4" input
+			(at 40.64 425.45 0)
+			(uuid "337604e2-6d36-43fe-bd86-eecb3d8cd8a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "rav4 ev"
+				(path "/31f9b3cd-5cac-468b-b36d-3bf8b59d460e"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 469.9)
+		(size 15.24 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "86c8c926-8681-41df-b868-8a81cda44762")
+		(property "Sheetname" "battery15"
+			(at 34.29 469.392 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery.kicad_sch"
+			(at 23.622 492.76 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "batout +" input
+			(at 29.21 495.3 270)
+			(uuid "7ebca9e3-c45b-444c-abe1-8963e88d005e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "batout -" input
+			(at 29.21 469.9 90)
+			(uuid "83f47f8f-aa10-493f-b480-0b79ab07b8ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 40.64 471.17 0)
+			(uuid "48dde755-e876-49b1-b218-fd3680876ab6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1+" input
+			(at 40.64 486.41 0)
+			(uuid "eccb6c5c-93ff-4a78-bece-ef262226b8bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1-" input
+			(at 40.64 488.95 0)
+			(uuid "f193e2b3-69af-428b-aa7e-dc3df5465ba0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2+" input
+			(at 40.64 491.49 0)
+			(uuid "432a6ad2-cfd8-4cff-8dce-2190fe85e64f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2-" input
+			(at 40.64 494.03 0)
+			(uuid "12cf006d-8897-469a-b446-dff1b87f8ebd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V0" input
+			(at 40.64 473.71 0)
+			(uuid "b68ee30d-74f9-46d7-93a0-17ac05eeac4b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V1" input
+			(at 40.64 476.25 0)
+			(uuid "f4e1c95e-890e-44fe-9631-3bc965c61c85")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V2" input
+			(at 40.64 478.79 0)
+			(uuid "19b3d5c8-a0cf-4a46-ae8d-a29a8c3641f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V3" input
+			(at 40.64 481.33 0)
+			(uuid "5a6005fd-828b-49ba-b906-74aa1a7a6854")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V4" input
+			(at 40.64 483.87 0)
+			(uuid "c94f369c-ce24-4d84-bd24-0fcaf61ded72")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "rav4 ev"
+				(path "/31f9b3cd-5cac-468b-b36d-3bf8b59d460e"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 615.95)
+		(size 15.24 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "901face1-a9c0-4023-8b92-7bd5d9e8bc91")
+		(property "Sheetname" "battery20"
+			(at 35.56 615.442 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery.kicad_sch"
+			(at 24.892 638.81 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "batout +" input
+			(at 30.48 641.35 270)
+			(uuid "1f895717-6eb2-4992-8baa-0f31814cdb69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "batout -" input
+			(at 30.48 615.95 90)
+			(uuid "64ade4a2-5cb0-41c0-b2c5-3807c8a1e338")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 41.91 617.22 0)
+			(uuid "dfd732e9-76ce-4933-b132-fe53f72c0a44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1+" input
+			(at 41.91 632.46 0)
+			(uuid "7765811c-9ba1-4fee-86dd-6e960a8b9d32")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1-" input
+			(at 41.91 635 0)
+			(uuid "f40cbb04-31fd-4b4f-87cc-d73cbdc3fcdb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2+" input
+			(at 41.91 637.54 0)
+			(uuid "65c2d133-3016-4190-92db-9473e10e8469")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2-" input
+			(at 41.91 640.08 0)
+			(uuid "6cd0eb94-d5e8-4a11-a432-39554e671c08")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V0" input
+			(at 41.91 619.76 0)
+			(uuid "403b3d45-4c77-411b-9907-e6808d5230b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V1" input
+			(at 41.91 622.3 0)
+			(uuid "771ee982-8bc4-4f20-baf9-66cab407f762")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V2" input
+			(at 41.91 624.84 0)
+			(uuid "ddf26965-f7a3-4ffd-9bff-50e7b92721e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V3" input
+			(at 41.91 627.38 0)
+			(uuid "a74619eb-339e-425b-8560-181a41e1bc4e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V4" input
+			(at 41.91 629.92 0)
+			(uuid "6a8ff154-2587-40f6-802e-dd48217b7fa6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "rav4 ev"
+				(path "/31f9b3cd-5cac-468b-b36d-3bf8b59d460e"
+					(page "22")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 113.03)
+		(size 15.24 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9a92ae1e-c515-446e-823c-77a9cb7ebb84")
+		(property "Sheetname" "battery3"
+			(at 34.29 112.522 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery.kicad_sch"
+			(at 23.622 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "batout +" input
+			(at 29.21 138.43 270)
+			(uuid "34fafa31-52cc-4705-8bfe-e22ab9b3ba34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "batout -" input
+			(at 29.21 113.03 90)
+			(uuid "b6773d84-f370-4344-85d2-133afe40444d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 40.64 114.3 0)
+			(uuid "95f45022-0f01-413a-aadb-97475b4b18a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1+" input
+			(at 40.64 129.54 0)
+			(uuid "f17358ac-9c1c-495a-99c2-d780c10c1db0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1-" input
+			(at 40.64 132.08 0)
+			(uuid "0e4439f4-b775-4a9d-979a-2703db11035b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2+" input
+			(at 40.64 134.62 0)
+			(uuid "b9d4c1a8-f385-4832-9bdc-7a8b0456781a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2-" input
+			(at 40.64 137.16 0)
+			(uuid "553a1cfc-a164-4a61-8780-0d42327d2079")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V0" input
+			(at 40.64 116.84 0)
+			(uuid "d8935d7e-fd54-43d5-adde-261b94464f0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V1" input
+			(at 40.64 119.38 0)
+			(uuid "d3a0cf44-6cbe-443d-b4ad-c7e88053023f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V2" input
+			(at 40.64 121.92 0)
+			(uuid "aae60817-d04a-41f6-b268-e2ed8254e9ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V3" input
+			(at 40.64 124.46 0)
+			(uuid "ccfa28ba-9a56-4e6e-84e3-4b45ddcf4d9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V4" input
+			(at 40.64 127 0)
+			(uuid "4973c4df-2c49-46f1-82e2-6816b0525e31")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "rav4 ev"
+				(path "/31f9b3cd-5cac-468b-b36d-3bf8b59d460e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 25.4)
+		(size 15.24 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a80e15ec-ab04-4bca-b92f-6ee71a7e96f3")
+		(property "Sheetname" "battery0"
+			(at 34.29 24.892 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery.kicad_sch"
+			(at 23.622 48.26 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "batout +" input
+			(at 29.21 50.8 270)
+			(uuid "e6539f7b-e8d1-4aa9-a2c2-a8228f431ae0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "batout -" input
+			(at 29.21 25.4 90)
+			(uuid "1adb2466-a5c5-43d7-99c0-007e9709c28e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 40.64 26.67 0)
+			(uuid "2f3ea277-c97d-4d10-9c7b-7fe368686844")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1+" input
+			(at 40.64 41.91 0)
+			(uuid "59ea9c32-bf81-4d60-a794-a8e53bec4e74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1-" input
+			(at 40.64 44.45 0)
+			(uuid "4bbb83ac-7072-4271-9312-530304cea8ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2+" input
+			(at 40.64 46.99 0)
+			(uuid "75c42935-cdd3-4c83-91bd-f0f73705158b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2-" input
+			(at 40.64 49.53 0)
+			(uuid "56443842-e679-4e46-ab97-fa9f9ed8db88")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V0" input
+			(at 40.64 29.21 0)
+			(uuid "d9e2f2f6-86c3-4c51-a586-d98fc15e3e5d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V1" input
+			(at 40.64 31.75 0)
+			(uuid "4f79c2ce-7b4e-4586-96f3-d1a882bd0e3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V2" input
+			(at 40.64 34.29 0)
+			(uuid "633410de-9c43-4913-affa-9906c16b98a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V3" input
+			(at 40.64 36.83 0)
+			(uuid "845f6d2f-640e-415f-add4-fb7b9e7cd928")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V4" input
+			(at 40.64 39.37 0)
+			(uuid "3b759a13-3b93-440f-9326-173ec5a54d9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "rav4 ev"
+				(path "/31f9b3cd-5cac-468b-b36d-3bf8b59d460e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 645.16)
+		(size 15.24 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ac77a56d-5b20-4ae9-9e93-3480f82d21b3")
+		(property "Sheetname" "battery21"
+			(at 35.56 644.652 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery.kicad_sch"
+			(at 24.892 668.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "batout +" input
+			(at 30.48 670.56 270)
+			(uuid "fea5ec5f-5108-477d-8338-423a5a17f215")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "batout -" input
+			(at 30.48 645.16 90)
+			(uuid "0245c284-2274-49e5-9e60-11fadf5f6a2a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 41.91 646.43 0)
+			(uuid "365156ab-6d76-4128-affe-aac850fac0d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1+" input
+			(at 41.91 661.67 0)
+			(uuid "53956067-5211-42e4-b13c-ff5a23ba77c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1-" input
+			(at 41.91 664.21 0)
+			(uuid "f84112d5-8771-4be4-8a26-5ad94e6d2723")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2+" input
+			(at 41.91 666.75 0)
+			(uuid "d796d55b-0fec-45a7-9611-417a033aa64c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2-" input
+			(at 41.91 669.29 0)
+			(uuid "28eedc25-07eb-4582-a0b5-5b7710739771")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V0" input
+			(at 41.91 648.97 0)
+			(uuid "75abd714-1f6e-4ada-b7e4-27b59bdef617")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V1" input
+			(at 41.91 651.51 0)
+			(uuid "acbf7675-b38b-4d02-9e7e-bf4dc7719d90")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V2" input
+			(at 41.91 654.05 0)
+			(uuid "445a3d12-c4be-4a8e-b250-a218833878bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V3" input
+			(at 41.91 656.59 0)
+			(uuid "e249a28d-3f0f-4c60-aec0-de9cb96d54fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V4" input
+			(at 41.91 659.13 0)
+			(uuid "a0838ad5-380b-4817-9bab-5cd77a1ddad8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "rav4 ev"
+				(path "/31f9b3cd-5cac-468b-b36d-3bf8b59d460e"
+					(page "23")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 499.11)
+		(size 15.24 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c16d70c7-fbeb-4ed6-973b-4570548d2d16")
+		(property "Sheetname" "battery16"
+			(at 34.29 498.602 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery.kicad_sch"
+			(at 23.622 521.97 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "batout +" input
+			(at 29.21 524.51 270)
+			(uuid "b54f642b-d696-4652-a318-004c035bd57d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "batout -" input
+			(at 29.21 499.11 90)
+			(uuid "9a000630-e1bf-4bf2-9d66-4a621e498d20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 40.64 500.38 0)
+			(uuid "d14410e4-aa59-4e68-ab72-0bcd455b619a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1+" input
+			(at 40.64 515.62 0)
+			(uuid "057d52e5-1b52-4b04-982c-bfb29039bc58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1-" input
+			(at 40.64 518.16 0)
+			(uuid "374011c2-6ef4-4e44-bf6b-9e0c21a096e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2+" input
+			(at 40.64 520.7 0)
+			(uuid "336effaf-7c6f-4c7f-a676-72d333584f70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2-" input
+			(at 40.64 523.24 0)
+			(uuid "73ee1046-0579-4eb6-9843-02c9aaa93596")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V0" input
+			(at 40.64 502.92 0)
+			(uuid "0b48edd6-1c20-46a0-b2d9-1323e86f2198")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V1" input
+			(at 40.64 505.46 0)
+			(uuid "03842462-f6b9-40c0-be2f-249901e6d03f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V2" input
+			(at 40.64 508 0)
+			(uuid "cb3f112a-96a6-4b3c-8d1c-fde2f7a46110")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V3" input
+			(at 40.64 510.54 0)
+			(uuid "c54883da-35b5-4c12-b90d-e911fdbc16b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V4" input
+			(at 40.64 513.08 0)
+			(uuid "1947672b-69f6-4ac3-8809-ba5e4f3eb5ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "rav4 ev"
+				(path "/31f9b3cd-5cac-468b-b36d-3bf8b59d460e"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 54.61)
+		(size 15.24 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ccc84406-ed3e-4e00-8d31-e9ab46a2e877")
+		(property "Sheetname" "battery1"
+			(at 34.29 54.102 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery.kicad_sch"
+			(at 23.622 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "batout +" input
+			(at 29.21 80.01 270)
+			(uuid "66691978-14d3-4364-b64f-d964a61883d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "batout -" input
+			(at 29.21 54.61 90)
+			(uuid "3eca59e1-f7b9-4e16-a131-8c3af1067258")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 40.64 55.88 0)
+			(uuid "41a93f73-4d06-47db-b486-76d30531585b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1+" input
+			(at 40.64 71.12 0)
+			(uuid "82bc2455-59c7-4a5f-8d28-7b8fd647aca9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1-" input
+			(at 40.64 73.66 0)
+			(uuid "050f09ca-5c1d-4baa-bc11-1fa97416a896")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2+" input
+			(at 40.64 76.2 0)
+			(uuid "ab0b000f-e58d-4274-8555-7cc2d27f0f09")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2-" input
+			(at 40.64 78.74 0)
+			(uuid "74de0165-3375-49a6-bae1-160c10d5dcdf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V0" input
+			(at 40.64 58.42 0)
+			(uuid "c44bd862-bf2f-4b1b-8f08-61cb5ee885d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V1" input
+			(at 40.64 60.96 0)
+			(uuid "00f874b7-f883-41cc-b391-1b17f624bf12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V2" input
+			(at 40.64 63.5 0)
+			(uuid "b89f7806-b87d-4834-a382-e670c167703a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V3" input
+			(at 40.64 66.04 0)
+			(uuid "74666f37-3ed4-4583-ac67-09e5a4a6bbae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V4" input
+			(at 40.64 68.58 0)
+			(uuid "b1458719-b8e9-4af6-bfeb-f293c0b5be3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "rav4 ev"
+				(path "/31f9b3cd-5cac-468b-b36d-3bf8b59d460e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 440.69)
+		(size 15.24 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ee3381cd-9a83-42c8-82ac-20121497962d")
+		(property "Sheetname" "battery14"
+			(at 34.29 440.182 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery.kicad_sch"
+			(at 23.622 463.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "batout +" input
+			(at 29.21 466.09 270)
+			(uuid "23ce59ba-fed5-484e-acd8-db18b3cb3501")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "batout -" input
+			(at 29.21 440.69 90)
+			(uuid "f0244c6f-9def-4689-ab2a-dcd8d911821a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 40.64 441.96 0)
+			(uuid "39f11d18-0b25-4096-b5b8-ad59644e21cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1+" input
+			(at 40.64 457.2 0)
+			(uuid "1306dc72-1804-4bc1-bb29-654c8084655a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1-" input
+			(at 40.64 459.74 0)
+			(uuid "d7156195-43f3-4266-8e65-85a6ef1d4bac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2+" input
+			(at 40.64 462.28 0)
+			(uuid "e19eb16d-7678-4eb1-8c81-15855afb01eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2-" input
+			(at 40.64 464.82 0)
+			(uuid "3f7d417b-fc4b-4d00-96ca-fbf52a2a774f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V0" input
+			(at 40.64 444.5 0)
+			(uuid "7e687d42-b190-4428-a63d-eb3f93f7632c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V1" input
+			(at 40.64 447.04 0)
+			(uuid "0a354ebe-02c9-483a-8fcb-3e37e6729eb9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V2" input
+			(at 40.64 449.58 0)
+			(uuid "91237163-ade5-49d7-b9fb-2772a2b720af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V3" input
+			(at 40.64 452.12 0)
+			(uuid "a767fae7-9096-451b-8737-68e22acf21e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V4" input
+			(at 40.64 454.66 0)
+			(uuid "186675c3-6a22-43b0-9c25-93c89f607b96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "rav4 ev"
+				(path "/31f9b3cd-5cac-468b-b36d-3bf8b59d460e"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 557.53)
+		(size 15.24 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "eef2efb3-251e-47bc-9417-5dcb08c544a5")
+		(property "Sheetname" "battery18"
+			(at 35.56 557.022 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery.kicad_sch"
+			(at 24.892 580.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "batout +" input
+			(at 30.48 582.93 270)
+			(uuid "8146176d-5952-4974-ad03-042e5fd48a3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "batout -" input
+			(at 30.48 557.53 90)
+			(uuid "41f8c170-f216-4c81-a844-304f083e02dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 41.91 558.8 0)
+			(uuid "4c704085-9c08-4d0c-a799-7a3bb8127b94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1+" input
+			(at 41.91 574.04 0)
+			(uuid "0341b407-f503-4291-b42a-a2f047624622")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1-" input
+			(at 41.91 576.58 0)
+			(uuid "83041dcc-735f-43e9-b35d-d21b575b6b89")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2+" input
+			(at 41.91 579.12 0)
+			(uuid "b187270a-d5dd-4c45-abe1-9fcf6111f8b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2-" input
+			(at 41.91 581.66 0)
+			(uuid "1874a23e-54fb-4ce7-a393-dcb338712598")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V0" input
+			(at 41.91 561.34 0)
+			(uuid "d6173f35-ad3a-46c7-ae0f-877608251a34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V1" input
+			(at 41.91 563.88 0)
+			(uuid "9a8a4473-8e85-424d-b2ea-119b4290cbda")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V2" input
+			(at 41.91 566.42 0)
+			(uuid "2ad2ae29-31c6-44fb-a733-e9c3b4305bc8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V3" input
+			(at 41.91 568.96 0)
+			(uuid "39bc5df6-0750-486a-9a99-59f504f7293d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V4" input
+			(at 41.91 571.5 0)
+			(uuid "31788d10-44f9-45bf-91cb-679b49d90a48")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "rav4 ev"
+				(path "/31f9b3cd-5cac-468b-b36d-3bf8b59d460e"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 171.45)
+		(size 15.24 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ef5464f3-2da6-4607-b802-30ae2ac7b5dc")
+		(property "Sheetname" "battery5"
+			(at 34.29 170.942 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery.kicad_sch"
+			(at 23.622 194.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "batout +" input
+			(at 29.21 196.85 270)
+			(uuid "217d3db3-c3b6-4c22-b1c5-5c42ca8aae11")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "batout -" input
+			(at 29.21 171.45 90)
+			(uuid "5b673714-7ead-41b4-a1ab-2ca17ed353f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 40.64 172.72 0)
+			(uuid "703d0272-e3be-41e7-9f76-1eefcd618abb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1+" input
+			(at 40.64 187.96 0)
+			(uuid "f3794381-c2d9-4c03-b393-be1257fcee0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC1-" input
+			(at 40.64 190.5 0)
+			(uuid "d1d375af-bcf2-4213-8d22-08e0c27e5380")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2+" input
+			(at 40.64 193.04 0)
+			(uuid "05539aba-5282-4234-a312-b6488bcc1a3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC2-" input
+			(at 40.64 195.58 0)
+			(uuid "f9ad65f6-20be-4745-807e-c6de6cd9d9f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V0" input
+			(at 40.64 175.26 0)
+			(uuid "743156c8-db92-4a7b-b485-53c19a26d5b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V1" input
+			(at 40.64 177.8 0)
+			(uuid "d2797513-2ff1-4578-8050-f0dd8a197bad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V2" input
+			(at 40.64 180.34 0)
+			(uuid "236b3527-2937-4c58-865a-312db9daa64b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V3" input
+			(at 40.64 182.88 0)
+			(uuid "0ef5ba3e-1e20-4abf-9a79-7f865f7ee7f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V4" input
+			(at 40.64 185.42 0)
+			(uuid "86845fe8-ad0e-4114-ab18-1a3fe7987c9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "rav4 ev"
+				(path "/31f9b3cd-5cac-468b-b36d-3bf8b59d460e"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
